@@ -1,0 +1,87 @@
+body{
+	background: #343735 ;
+	color: White;
+	font-family: Helvetica;
+	font-size: 22px;
+	text-align: center
+}
+h1{
+	top-margin: 12px;
+	font-family: 'Viga';
+	font-size:56px;
+	color: #E5E7E9
+}
+h2{
+	font-family: 'Bangers';
+	font-size: 36px;
+	text-decoration: underline;
+}
+h1,h2,p {
+	font-weight: lighter;
+}
+p{
+	padding: 12px;
+	font-family: 'Gochi Hand';
+}
+a{
+	text-decoration: none;
+	color: #2874A6;
+}
+a:hover {
+text-decoration: underline;
+}
+#photo-profil {
+	border-radius: 50%;
+	box-shadow: 2px 2px 4px black;
+}
+.img-rect {
+ 	width: 200px;
+ 	height:auto;
+ 	border-radius: 1%;
+ 	box-shadow: 0px 2px 4px black;
+ }
+.card-grey {
+	background: #262626;
+	width: 700px;
+	height: auto;
+	padding: 16px;
+	margin: 12px auto;
+	box-shadow: 0px 2px 2px rgb(57, 59, 58) ;
+	border-radius: 1%;
+}
+.btn-blue {
+	background-color: #2874A6;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 10px;
+}
+.btn-blue:hover {
+	background-color: #4682B4;
+	text-decoration: none;
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 12px;
+}
+.list-inline i{
+	font-size: 50px;
+}
+#strava {
+	color: #FC4C02; 
+}
+#strava:hover {color: orange; }
+
+#linkedin:hover {color:#4285F4 ;}
+@media (max-width: 760px) {
+	.card-grey {
+	width: 480px;
+}
+@media (max-width: 570px) {
+	.card-grey {
+	width: 400px;
+}
